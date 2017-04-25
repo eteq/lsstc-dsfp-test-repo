@@ -35,7 +35,7 @@ def self_destruct():
 
 
 _TOWNS_GRABBED = []
-def land_grab(town, sheriff_bart=False):
+def land_grab(town='Rock Ridge', sheriff_bart=True):
     _check_lock()
 
     if sheriff_bart:
