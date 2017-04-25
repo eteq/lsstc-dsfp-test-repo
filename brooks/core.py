@@ -14,6 +14,9 @@ def lock():
 
 
 def unlock(code):
+    """
+    It should be the same combination as my luggage...
+    """
     global _LOCKED
 
     if _LOCKED:
