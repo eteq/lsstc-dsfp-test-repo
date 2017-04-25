@@ -35,10 +35,10 @@ def self_destruct():
 
 
 _TOWNS_GRABBED = []
-def land_grab(town, black_sheriff=False):
+def land_grab(town, sheriff_bart=False):
     _check_lock()
 
-    if black_sheriff:
+    if sheriff_bart:
         threshold = .01
     else:
         threshold = .5
